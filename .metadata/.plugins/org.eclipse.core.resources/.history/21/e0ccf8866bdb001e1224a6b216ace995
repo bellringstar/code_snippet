@@ -1,0 +1,24 @@
+
+public class P49993 {
+	/*
+	 * 선행 스킬
+	 * 스킬트리에서 스킬을 제외한 문자를 전부 삭제
+	 * 스킬이 해당 문자열을 포함하고 있으면 가능
+	 */
+
+	static class Solution {
+		public int solution(String skill, String[] skill_trees) {
+			int answer = 1;
+			return answer;
+		}
+	}
+	
+	public static void main(String[] agrs) {
+		Solution s = new Solution();
+//		s.solution("CBD", new String[] {"BACDE", "CBADF", "AECB", "BDA"});
+		String skill = "BACDE";
+		String result = skill.replaceAll("[^CBD]", "");
+		System.out.println(result);
+	}
+	
+}

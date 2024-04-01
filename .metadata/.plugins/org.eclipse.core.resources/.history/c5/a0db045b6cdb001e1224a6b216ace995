@@ -1,0 +1,15 @@
+
+public class P49993 {
+	/*
+	 * 선행 스킬
+	 */
+
+	class Solution {
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("CB".startsWith("CBD"));
+	}
+	
+}
